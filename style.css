@@ -3,3 +3,23 @@
     padding: 0;
 }
 
+.header {
+    display: flex;
+}
+
+.header--bg-img {
+    background-image: url("./images/floating-market-2.png");
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+
+
+}
+
+.footer {
+    display: flex;
+
+
+}
