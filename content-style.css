@@ -1,0 +1,89 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.img-articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.img-articles__column-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+}
+
+.img-articles__column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.img-articles__article {
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-articles__type {
+    height: 18px;
+    width: 92px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.img-articles__text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.image-articles__text {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.image-articles__date {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.img-articles__img {
+    flex: 1;
+}
+
+.img-articles__article--bg-img {
+    background-size: cover;
+    flex: 1;
+}
+
+.img-articles__article--bg-img-1 {
+    background-image: url("./assets/images/woman-with-laptop.png");
+}
+
+.text-articles {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.text-articles__article {
+    flex: 1 0 30%;
+    font-size: 28;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

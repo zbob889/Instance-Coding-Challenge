@@ -1,0 +1,10 @@
+
+.footer {
+    flex: 1;
+}
+
+.footer--bg-img {
+    background-image: url("./assets/images/footer-img.png");
+    background-size: cover;
+    max-width: 100%;
+}
