@@ -4,6 +4,6 @@
 }
 
 .footer--bg-img {
-    background-image: url("./assets/images/footer-img.png");
+    /* background-image: url("./assets/images/footer-img.png"); */
     background-size: cover;
 }

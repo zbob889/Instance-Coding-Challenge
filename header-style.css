@@ -2,14 +2,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
+    width: 100vw;
 }
 
 .header--bg-img {
     background-image: url("./assets/images/floating-market-2.png");
     background-size: cover;
     flex: 1;
-    /* max-width: 100%; */
+    max-width: 100%;
 }
 
 .navbar {
@@ -34,6 +35,7 @@
 
 .navbar__button {
     font-size: 18px;
+    cursor: pointer;
 }
 
 .navbar__button--no-bg {
