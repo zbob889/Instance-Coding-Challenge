@@ -54,7 +54,7 @@
 }
 
 .tagline {
-    padding-bottom: 15%;
+    padding-bottom: 17%;
     padding-left: 50px;
 }
 
@@ -66,9 +66,10 @@
 
 .stats {
     display: flex;
-    padding-left: 50px;
+    gap: 8%;
+    padding-left: 4.5%;
     padding-right: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 2%;
     color: white;
 }
 
