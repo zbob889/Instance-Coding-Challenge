@@ -1,9 +1,69 @@
-
 .footer {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-.footer--bg-img {
-    /* background-image: url("./assets/images/footer-img.png"); */
-    background-size: cover;
+.footer__bg-img-container {
+    display: flex;
+}
+
+.footer__bg-img-container--img {
+    flex: 1;
+    height: 100%;
+}
+
+.footer__latest-investments-img {
+    position: absolute;
+    top: 6%;
+    left: 3.5%;
+}
+
+.tabs {
+    position: absolute;
+    left: 3.5%;
+    top: 12%;
+}
+
+.tabs__block {
+    position: absolute;
+}
+
+.tabs__block--tab-2 {
+    left: 34px;
+}
+
+.tabs__block--tab-3 {
+    left: 67px;
+}
+
+.tabs__block--tab-4 {
+    left: 100px;
+}
+
+.tab-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    left: 30px;
+    top: 25px;
+}
+
+.tabs__big-text--short-line-height {
+    line-height: 70px;
+}
+
+.tabs__big-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    font-weight: 400;
+    gap: 50px;
+}
+
+.tabs__little-text {
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 165px;
 }
