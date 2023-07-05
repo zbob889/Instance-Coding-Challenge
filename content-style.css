@@ -177,7 +177,7 @@
 }
 
 .text-articles {
-    flex: 1;
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -185,9 +185,49 @@
 
 .text-articles__article {
     flex: 1 0 30%;
-    font-size: 28;
-    font-weight: 500;
+    border-top: 1px solid #EBEBEB;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
+}
+
+.text-articles__type {
+    padding-top: 15px;
+    height: 18px;
+}
+
+.text-articles__type--global {
+    width: 13%;
+}
+
+.text-articles__type--pressrelease-financialservices-africa {
+    width: 62%;
+}
+
+.text-articles__type--indiatimes {
+    width: 43%;
+}
+
+.text-articles__type--pressrelease-global {
+    width: 35%;
+}
+
+.text-articles__type--video {
+    width: 10%;
+}
+
+.text-articles__text {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.text-articles__text--leapfrog-1 {
+    width: 75%;
+}
+
+.text-articles__date {
+    font-size: 10px;
+    font-weight: 400;
+    color: #777777;
 }
