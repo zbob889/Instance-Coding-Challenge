@@ -23,7 +23,6 @@
 }
 
 .column-1__article {
-    /* flex: 1; */
     position: relative;
     max-width: 100%;
     max-height: 100%;
@@ -98,7 +97,6 @@
 }
 
 .column-2__article {
-    /* flex: 1; */
     position: relative;
     max-width: 100%;
     max-height: 100%;

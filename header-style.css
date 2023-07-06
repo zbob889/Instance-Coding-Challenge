@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* width: 100%; */
     width: 100vw;
 }
 
@@ -50,7 +49,6 @@
     outline: black;
     background-color: var(--leap-blue);
     padding: 8px;
-
 }
 
 .tagline {
