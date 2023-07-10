@@ -14,12 +14,6 @@
     max-width: 100vw;
 }
 
-.footer__latest-investments-img {
-    position: absolute;
-    top: 6%;
-    left: 3.5%;
-}
-
 .footer__latest-investments {
     position: absolute;
     top: 6%;
@@ -39,23 +33,43 @@
 
 .tabs {
     position: absolute;
-    left: 3.5%;
-    top: 12%;
+    left: 4.5%;
+    top: 10%;
 }
 
 .tabs__block {
     position: absolute;
+    width: 669px;
+    height: 693px;
 }
 
-.tabs__block--tab-2 {
+.tabs__block--rotate-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Helvetica Monospace";
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    transform: rotate(-90deg);
+}
+
+.tabs__block--orange {
+    background-color: #F29C4D;
+}
+
+.tabs__block--light-brown {
+    background-color: #AA542E;
     left: 34px;
 }
 
-.tabs__block--tab-3 {
+.tabs__block--brown {
+    background-color: #803D1E;
     left: 67px;
 }
 
-.tabs__block--tab-4 {
+.tabs__block--dark-brown {
+    background-color: #56250F;
     left: 100px;
 }
 
@@ -66,6 +80,9 @@
     width: 45vw;
     left: 30px;
     top: 25px;
+    transform: rotate(90deg);
+    color: black;
+    font-family: "Helvetica Now Display";
 }
 
 .tabs__big-text--short-line-height {
