@@ -1,8 +1,8 @@
-.content {
+.post-grid {
     min-height: 1634px;
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    margin-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -34,10 +34,18 @@
 
 .column-1__type {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 18px;
     width: 92px;
-    padding-top: 15px;
-    padding-left: 15px;
+    font-family: "Helvetica Monospace";
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: var(--leap-blue);
+    color: black;
 }
 
 .column-1__text-container {
@@ -107,24 +115,50 @@
 }
 
 .column-2__type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     position: absolute;
-    padding-top: 15px;
-    padding-left: 15px;
+    font-family: "Helvetica Monospace";
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.column-2__type--open-img {
+    height: 12px;
+    width: auto;
 }
 
 .column-2__type--indiatimes {
-    height: 5%;
-    width: 37%;
+    font-size: 10.2px;
+    height: 20px;
+    width: 195px;
+    border: 1px solid white;
 }
 
-.column-2__type--casestudy-asia {
-    height: 6%;
-    width: 22%;
+.column-2__type--white-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-size: 10px;
+}
+
+.column-2__type--case-study {
+    height: 18px;
+    width: 74px;
+}
+
+.column-2__type--asia {
+    height: 18px;
+    width: 38px;
 }
 
 .column-2__type--video {
-    height: 5%;
-    width: 8%;
+    height: 18px;
+    width: 44px;
 }
 
 .column-2__text-container {
@@ -190,20 +224,60 @@
 }
 
 .text-articles__type {
-    padding-top: 15px;
+    margin-top: 15px;
     height: 18px;
+    font-family: "Helvetica Monospace";
+    display: flex;
+    gap: 5px;
+}
+
+.text-articles__type--gray-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #F2F2F2;
+    font-size: 10px;
+}
+
+.text-articles__type--blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: var(--leap-blue);
+    font-size: 10px;
 }
 
 .text-articles__type--global {
     width: 13%;
 }
 
-.text-articles__type--pressrelease-financialservices-africa {
-    width: 62%;
+.text-articles__type--pressrelease {
+    width: 22%;
+}
+
+.text-articles__type--financialservices {
+    width: 25%;
+}
+
+.text-articles__type--africa {
+    width: 12%;
+}
+
+.text-articles__type--open-img {
+    height: 11px;
+    width: auto;
 }
 
 .text-articles__type--indiatimes {
-    width: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10.2px;
+    height: 20px;
+    width: 45%;
+    border: 1px solid black;
 }
 
 .text-articles__type--pressrelease-global {
