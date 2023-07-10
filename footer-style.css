@@ -11,6 +11,7 @@
 .footer__bg-img-container--img {
     flex: 1;
     height: 100%;
+    max-width: 100vw;
 }
 
 .footer__latest-investments-img {

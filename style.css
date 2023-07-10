@@ -5,12 +5,13 @@
 
 :root {
     --leap-blue: #25E6F2;
+    font-family: "Helvetica Now Display";
 }
 
-.container {
+/* .container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 900px 2fr 1fr;
     height: 100%;
     font-family: "Helvetica Now Display";
-}
+} */

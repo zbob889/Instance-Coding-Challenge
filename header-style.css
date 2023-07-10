@@ -1,20 +1,13 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.header--bg-img {
-    background-image: url("./assets/images/floating-market-2.png");
-    background-size: cover;
-    flex: 1;
-    max-width: 100%;
-}
-
-.navbar {
+.site-header {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    z-index: 1;
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
     max-height: 10%;
@@ -22,38 +15,55 @@
     padding-right: 50px;
 }
 
-.navbar__left {
+.site-header__left {
     margin-top: 33px;
 }
 
-.navbar__right {
+.site-header__right {
     display: flex;
-    gap: 40px;
+    gap: 60px;
     margin-top: 38px;
 }
 
-.navbar__button {
+.site-header__button {
     font-size: 18px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.navbar__button--no-bg {
-    border: none;
-    background: none;
+.site-header__button--no-bg {
     color: white;
     font-weight: 500;
 }
 
-.navbar__button--bg {
-    border: none;
-    outline: black;
+.site-header__button--bg {
     background-color: var(--leap-blue);
     padding: 8px;
+    height: 13px;
+    width: 55px;
+}
+
+.page-header {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 900px;
+}
+
+.page-header--bg-img {
+    background-image: url("./assets/images/floating-market-2.png");
+    background-size: cover;
+    flex: 1;
+    max-width: 100%;
 }
 
 .tagline {
-    padding-bottom: 17%;
     padding-left: 50px;
+    margin-top: 15%;
 }
 
 .tagline__text {
