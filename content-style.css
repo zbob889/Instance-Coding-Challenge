@@ -6,7 +6,7 @@
     padding-right: 50px;
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1181px) {
     .img-articles {
         display: grid;
         gap: 15px;
@@ -14,7 +14,15 @@
     }
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1180px) and (min-width: 980px) {
+    .img-articles {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 980px) {
     .img-articles {
         display: grid;
         gap: 15px;
@@ -22,7 +30,7 @@
     }  
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 980px) {
     .column-1 {
         display: grid;
         grid-template-columns: 1fr;
@@ -32,7 +40,7 @@
     
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 980px) {
     .column-1 {
         display: grid;
         grid-template-columns: 1fr;
@@ -92,9 +100,23 @@
 
 }
 
-.column-1__text {
-    font-size: 36px;
-    font-weight: 500;
+@media only screen and (min-width: 740px) {
+    .column-1__text {
+        font-size: 36px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .column-1__text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.column-1__date {
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .column-1__text--leapfrog {
@@ -105,13 +127,7 @@
     max-width: 73%;
 }
 
-.column-1__date {
-    font-size: 14px;
-    font-weight: 300;
-}
-
-
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 980px) {
     .column-2 {
         display: grid;
         grid-template-columns: 1fr;
@@ -120,7 +136,7 @@
     }
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 980px) {
     .column-2 {
         display: grid;
         grid-template-columns: 1fr;
@@ -129,7 +145,7 @@
     }
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 980px) {
     .column-2__article {
         max-width: 100%;
         max-height: 100%;
@@ -139,7 +155,7 @@
     }
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 980px) {
     .column-2__article {
         max-width: 100%;
         max-height: 100%;
