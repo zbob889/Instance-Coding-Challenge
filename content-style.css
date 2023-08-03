@@ -255,9 +255,18 @@
     color: black;
 }
 
-.column-2__text {
-    font-size: 36px;
-    font-weight: 500;
+@media only screen and (min-width: 740px) {
+    .column-2__text {
+        font-size: 36px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .column-2__text {
+        font-size: 20px;
+        font-weight: 500;
+    }
 }
 
 .column-2__date {
