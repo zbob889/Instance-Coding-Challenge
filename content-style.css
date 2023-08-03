@@ -29,6 +29,16 @@
     grid-template-columns: 1fr;
 }
 
+.column-1__article--woman-with-laptop {
+    background-image: url("./assets/images/woman-with-laptop.png");
+    background-size: cover;
+}
+
+.column-1__article--people-walking {
+    background-image: url("./assets/images/people-walking.png");
+    background-size: cover;
+}
+
 .column-1__type {
     grid-column-start: 1;
     grid-row-start: 1;
@@ -112,6 +122,21 @@
     color: white;
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.column-2__article--woman-thinking {
+    background-image: url("./assets/images/woman-thinking.png");
+    background-size: cover;
+}
+
+.column-2__article--man-talking {
+    background-image: url("./assets/images/man-talking.png");
+    background-size: cover;
+}
+
+.column-2__article--abstract-art {
+    background-image: url("./assets/images/abstract-art.png");
+    background-size: cover;
 }
 
 .column-2__type {
