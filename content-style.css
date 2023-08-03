@@ -1,6 +1,6 @@
 .post-grid {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
@@ -45,6 +45,7 @@
 .column-1__article {
     max-width: 100%;
     max-height: 100%;
+    min-height: 450px;
     color: white;
     display: grid;
     grid-template-columns: 1fr;
@@ -53,11 +54,13 @@
 .column-1__article--woman-with-laptop {
     background-image: url("./assets/images/woman-with-laptop.png");
     background-size: cover;
+    background-position: center;
 }
 
 .column-1__article--people-walking {
     background-image: url("./assets/images/people-walking.png");
     background-size: cover;
+    background-position: center;
 }
 
 .column-1__type {
@@ -84,15 +87,9 @@
     flex-direction: column;
     gap: 5px;
     margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: 15px;
 
-}
-
-.column-1__text-container--leapfrog {
-    padding-top: 42.5%;
-}
-
-.column-1__text-container--cardekho {
-    padding-top: 36%;
 }
 
 .column-1__text {
@@ -113,20 +110,6 @@
     font-weight: 300;
 }
 
-.column-1__img {
-    flex: 1;
-}
-
-.column-1__bg-img-container {
-    z-index: -1;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    position: relative;
-}
-
-.column-1__bg-img-container--img {
-    width: 100%;
-}
 
 @media only screen and (min-width: 1110px) {
     .column-2 {
@@ -146,27 +129,43 @@
     }
 }
 
-.column-2__article {
-    max-width: 100%;
-    max-height: 100%;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr;
+@media only screen and (min-width: 1110px) {
+    .column-2__article {
+        max-width: 100%;
+        max-height: 100%;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .column-2__article {
+        max-width: 100%;
+        max-height: 100%;
+        min-height: 450px;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .column-2__article--woman-thinking {
     background-image: url("./assets/images/woman-thinking.png");
     background-size: cover;
+    background-position: center;
 }
 
 .column-2__article--man-talking {
     background-image: url("./assets/images/man-talking.png");
     background-size: cover;
+    background-position: center;
 }
 
 .column-2__article--abstract-art {
     background-image: url("./assets/images/abstract-art.png");
     background-size: cover;
+    background-position: center;
 }
 
 .column-2__type {
@@ -229,8 +228,11 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding-left: 10px;
-    margin-top: 30%;
+    /* padding-left: 10px;
+    margin-top: 30%; */
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: 15px;
 }
 
 .column-2__text-container--black-text {
@@ -245,20 +247,6 @@
 .column-2__date {
     font-size: 14px;
     font-weight: 300;
-}
-
-.column-2__img {
-    flex: 1;
-}
-
-.column-2__bg-img-container {
-    z-index: -1;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-.column-2__bg-img-container--img {
-    width: 100%;
 }
 
 .text-articles {
