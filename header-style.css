@@ -62,12 +62,12 @@
     max-width: 100%;
 }
 
-.tagline {
-    padding-left: 50px;
-    margin-top: 15%;
-}
-
 @media only screen and (min-width: 740px) {
+    .tagline {
+        padding-left: 50px;
+        margin-top: 200px;
+    }
+
     .tagline__text {
         font-weight: 400;
         font-size: 70px;
@@ -80,6 +80,11 @@
 }
 
 @media only screen and (max-width: 740px) {
+    .tagline {
+        padding-left: 50px;
+        margin-top: 100px;
+    }
+
     .tagline__text {
         font-weight: 400;
         font-size: 35px;
