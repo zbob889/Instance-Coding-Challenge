@@ -67,10 +67,50 @@
     margin-top: 15%;
 }
 
-.tagline__text {
-    font-weight: 400;
-    font-size: 70px;
-    color: white;
+@media only screen and (min-width: 740px) {
+    .tagline__text {
+        font-weight: 400;
+        font-size: 70px;
+        color: white;
+    }
+
+    .site-header__main-menu-button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .tagline__text {
+        font-weight: 400;
+        font-size: 35px;
+        color: white;
+    }
+
+    .site-header__logo {
+        height: 22px;
+        width: 100px;
+    }
+
+    .site-header__button {
+        display: none;
+    }
+
+    .site-header__main-menu-button {
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin: 1em 0 0 1em;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .site-header__main-menu-button div {
+        height: 4px;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 25px;
+    }
 }
 
 
