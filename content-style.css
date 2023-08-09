@@ -115,7 +115,7 @@
 
 .column-1__date {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .column-1__text--leapfrog {
@@ -269,7 +269,7 @@
 
 .column-2__date {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media only screen and (min-width: 1181px) {
