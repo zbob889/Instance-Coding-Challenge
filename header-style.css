@@ -33,9 +33,19 @@
     justify-content: center;
 }
 
-.site-header__button--no-bg {
-    color: white;
-    font-weight: 500;
+@media only screen and (min-width: 1025px) {
+    .site-header__button--no-bg {
+        color: white;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .site-header__button--no-bg {
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
 }
 
 .site-header__button--bg {
